@@ -16,11 +16,11 @@ Open **CLI** and run following commands to set up at local:
 
 - **Clone the project**
 
-        git clone https://github.com/dishant-rana/AntWalk-Assignment.git
+        git clone https://github.com/dishant-rana/serverless.git
    
 - **Go to project directory** 
 
-        cd AntWalk-Assignment  -- Open code in any IDE( e.g visual studio code)
+        cd serverless  -- Open code in any IDE( e.g visual studio code)
 
 - **Install node.js** 
 
