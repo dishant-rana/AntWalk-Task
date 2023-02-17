@@ -16,11 +16,11 @@ Open **CLI** and run following commands to set up at local:
 
 - **Clone the project**
 
-        git clone https://github.com/dishant-rana/serverless.git
+        git clone https://github.com/dishant-rana/AntWalk-Task.git
    
 - **Go to project directory** 
 
-        cd serverless  -- Open code in any IDE( e.g visual studio code)
+        cd AntWalk-Task  -- Open code in any IDE( e.g visual studio code)
 
 - **Install node.js** 
 
@@ -33,6 +33,8 @@ Open **CLI** and run following commands to set up at local:
 
         npm install
 
+#NOTE 
+Make Sure You have ServerLess installed Globally as well. 
 
 # Database 
  	 
