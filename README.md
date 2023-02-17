@@ -32,9 +32,10 @@ Open **CLI** and run following commands to set up at local:
 - **Install the dependencies**    
 
         npm install
+        
+- **Start the Project**    
 
-#NOTE 
-Make Sure You have ServerLess installed Globally as well. 
+        npm start
 
 # Database 
  	 
