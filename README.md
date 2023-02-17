@@ -61,20 +61,20 @@ Open **CLI** and run following commands to set up at local:
 
 # REQUESTS EXAMPLES
 
-**BASEURL* : http://localhost:3000
+**BASEURL* : http://localhost:3000 <br/>
 
 **GET REQUEST** :  This is used to Get all the TODOS from the DATABASE. 
                     Example: GET http://localhost:3000?page=1 
                     You can exclude the Page query if you want. 
 
-**POST REQUEST**: This is used to ADD new TODOS to the DATABASE. And the body conatins the TodoNames in the form of Array.You can Add multiple TODOS at once.
-                    Example: POST http://localhost:3000
-                    REQUEST BODY: [{"todoName":"New Todo"}, {"todoName":"One more Todo"}]
+**POST REQUEST**: This is used to ADD new TODOS to the DATABASE. And the body conatins the TodoNames in the form of Array.You can Add multiple TODOS at once.<br/>
+                    Example: POST http://localhost:3000 <br/>
+                    REQUEST BODY: [{"todoName":"New Todo"}, {"todoName":"One more Todo"}]<br/>
 
-**DELETE REQUEST** :  This is used to DELETE the TODOS from the DATABASE on the basis of NAME or ID. You can Delete multiple TODOs at once. 
-                    Example: DELETE http://localhost:3000
-                    REQUEST BODY: {"ids":[1,2,3]}  OR {"todoNames":["Name1", "Name2","Name3"]}
+**DELETE REQUEST** :  This is used to DELETE the TODOS from the DATABASE on the basis of NAME or ID. You can Delete multiple TODOs at once. <br/>
+                    Example: DELETE http://localhost:3000 <br/>
+                    REQUEST BODY: {"ids":[1,2,3]}  OR {"todoNames":["Name1", "Name2","Name3"]} <br/>
 
-**PATCH REQUEST** :  This is Used to Update or Add the TODOS in the Database on the basis of availability. If the TODO is present already it will update the    STATUS of it
-                    Example: GET http://localhost:3000
-                    REQUEST BODY: [{"id":1,"todoName":"Anything","status":false},{"id":2,"todoName":"Anything","status":true}]
+**PATCH REQUEST** :  This is Used to Update or Add the TODOS in the Database on the basis of availability. If the TODO is present already it will update the    STATUS of it <br/>
+                    Example: GET http://localhost:3000 <br/>
+                    REQUEST BODY: [{"id":1,"todoName":"Anything","status":false},{"id":2,"todoName":"Anything","status":true}] <br/>
